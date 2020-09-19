@@ -25,7 +25,9 @@ var INPUT_DATA = {
             parent_id: '2',
             staff_department: 'N',
             manager_id: 'B05',
-            dataFields: [{ name: 'Location', value: '', type: 'text' }],
+            dataFields: [
+              { name: 'Location', value: '', type: 'text' }
+            ],
             children: [],
             showChildren: false
           },
@@ -36,12 +38,14 @@ var INPUT_DATA = {
             parent_id: '2',
             staff_department: 'N',
             manager_id: 'B06',
-            dataFields: [{ name: 'Location', value: '', type: 'text' }],
+            dataFields: [
+              { name: 'Location', value: '', type: 'text' }
+            ],
             children: [],
             showChildren: false
-          },
+          }
         ],
-        showChildren: false
+        showChildren: true
       },
       {
         id: '01268004-f249-5d93-41e4-c23947f11a62',
@@ -59,7 +63,9 @@ var INPUT_DATA = {
             parent_id: '2',
             staff_department: 'N',
             manager_id: 'B07',
-            dataFields: [{ name: 'Location', value: '', type: 'text' }],
+            dataFields: [
+              { name: 'Location', value: '', type: 'text' }
+            ],
             children: [],
             showChildren: false
           },
@@ -70,15 +76,17 @@ var INPUT_DATA = {
             parent_id: '2',
             staff_department: 'N',
             manager_id: 'B08',
-            dataFields: [{ name: 'Location', value: '', type: 'text' }],
+            dataFields: [
+              { name: 'Location', value: '', type: 'text' }
+            ],
             children: [],
             showChildren: false
-          },
+          }
         ],
-        showChildren: false
+        showChildren: true
       }
     ],
-    showChildren: false
+    showChildren: true
   },
   people: [
     {
@@ -206,7 +214,7 @@ var INPUT_DATA = {
       country: 'Netherlands',
       city: 'Utrecht',
       functionName: ''
-    },
+    }
   ],
 
   assignments: [
